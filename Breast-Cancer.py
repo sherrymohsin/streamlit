@@ -1,8 +1,3 @@
-import streamlit as st
-import pandas as pd
-import joblib
-import time
-
 
 parameter_list=['radius_mean', 'texture_mean', 'perimeter_mean', 'area_mean',
        'smoothness_mean', 'compactness_mean', 'concavity_mean',
