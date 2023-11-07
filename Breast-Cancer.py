@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import joblib as jb
 import time
-
+pip install joblib
 
 parameter_list=['radius_mean', 'texture_mean', 'perimeter_mean', 'area_mean',
        'smoothness_mean', 'compactness_mean', 'concavity_mean',
