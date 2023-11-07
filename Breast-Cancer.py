@@ -12,7 +12,6 @@ parameter_description=['Size of tumor', 'Surface Roughness', 'Tumor Boundary Len
 parameter_default_values=[17.99, 10.38,122.8,1001.0,0.1184,0.2776,0.3001,0.1471, 0.2419,0.07871]
 
 with st.spinner('Fetching Latest ML Model'):
-    # Use pickle to load in the pre-trained model
     model = joblib.load("Magic Curve Model.pkl")
     time.sleep(1)
     st.success('Model V8 Loaded!')
