@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-import time
+#import time
 import urllib.parse 
 
 parameter_list=['radius_mean', 'texture_mean', 'perimeter_mean', 'area_mean',
