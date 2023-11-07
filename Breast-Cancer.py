@@ -1,8 +1,7 @@
 import streamlit as st
 import pandas as pd
-import joblib as jb
 import time
-pip install joblib
+import urllib.parse 
 
 parameter_list=['radius_mean', 'texture_mean', 'perimeter_mean', 'area_mean',
        'smoothness_mean', 'compactness_mean', 'concavity_mean',
